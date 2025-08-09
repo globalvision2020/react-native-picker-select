@@ -311,7 +311,7 @@ export default class RNPickerSelect extends PureComponent {
     const { doneDepressed } = this.state;
 
     if (InputAccessoryView) {
-      return <InputAccessoryView testID="custom_input_accessory_view" />;
+      return InputAccessoryView;
     }
 
     return (
